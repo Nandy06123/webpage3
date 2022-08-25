@@ -1,0 +1,16 @@
+body{
+    background-image: url(hanger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.column{
+    float: left;
+    margin-left: 500PX;
+
+}
+.row::after{
+    content: "";
+    display: table;
+
+}
